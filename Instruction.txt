@@ -1,0 +1,36 @@
+Running the Application
+- Clone or download the source code from the repository.
+- Ensure that the Sigar library (both JAR and native libraries) is included in your project's build path.
+- Compile and run the SystemInfo.java file.
+         javac -cp .:lib/sigar.jar SystemInfo.java
+         java -cp .:lib/sigar.jar SystemInfo
+
+Output
+The application will output the following system information to the console:
+
+- IP Address
+- Operating System Details:
+      OS Name
+      OS Version
+      Architecture
+      User Name
+- CPU Information:
+      Vendor
+      Model
+      MHz
+- Memory Information:
+      Total Memory
+      Used Memory
+      Free Memory
+- File System Information:
+      Device Name
+      Total Space
+      Used Space
+      Free Space
+- Network Interface Information:
+      Interface Name
+      IP Address
+      MAC Address
+      RX Packets
+      TX Packets
+- System Uptime
